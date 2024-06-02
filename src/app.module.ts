@@ -15,6 +15,7 @@ import { PenaltyModule } from "./penalties/penalty.module";
 import { FacultyApprovalModule } from "./facultyApproval/facultyApproval.module";
 import { SalaryModule } from "./salary/salary.module";
 import { StudentViewModule } from "./student-view/students/student.module";
+import { RecruiterViewModule } from "./recruiter-view/recruiter/recruiter.module";
 import { InterviewExperienceModule } from "./student-view/interview-experiences/ie.module";
 import { StudentOfferModule } from "./student-view/offers/offer.module";
 import { UserModule } from "./user/user.module";
@@ -45,6 +46,7 @@ import { StudentViewSalaryModule } from "./student-view/salary/salary.module";
     StudentViewSalaryModule,
     InterviewExperienceModule,
     StudentOfferModule,
+    RecruiterViewModule,
     UserModule,
     SeasonModule,
     RegistrationsModule,
